@@ -6,6 +6,11 @@ public class ApplicationRun {
 		ElectronicDevice myDevice= Remote.getRemoteType();
 		TurnOn on = new TurnOn(myDevice);
 		on.execute();
+		
+		VolumeUp volumeUp = new VolumeUp(myDevice);
+		volumeUp.execute();
+		volumeUp.execute();
+		volumeUp.execute();
 	}
 
 }
