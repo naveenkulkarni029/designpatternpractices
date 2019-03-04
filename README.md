@@ -6,6 +6,6 @@ These are the GOF (Gangs Of Four) Patterns, which are commonly used for object o
 
 Their are 3 types of Design patterns under the repository
 
-1. Behaviour
+1. Behavioral
 2. Creational
 3. Structural.
