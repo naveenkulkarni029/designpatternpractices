@@ -3,6 +3,7 @@ package org.nbk.designpattern.behavioural.command;
 public class ApplicationRun {
 
 	public static void main(String[] args) {
+		System.out.println("Hello");
 		Receiver receiver = new Receiver();
 		Command command = new ConcreteCommandImplA(receiver);
 		Invoker invoker = new Invoker();
