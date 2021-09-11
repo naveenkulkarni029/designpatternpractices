@@ -1,4 +1,6 @@
 public class DraconianSingleton {
+	
+	// THREAD SAFE SINGLETON
 
 	private static DraconianSingleton instance;
 
